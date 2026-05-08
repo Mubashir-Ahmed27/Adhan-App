@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adhan App</title>
+    <link rel="shortcut icon" href="images/Logo.svg" type="image/Adhan App">
+</head>
+<body>
+    <main id="app-container">
+        <section class="location-info">
+          <h2 id="city-name">Loading location...</h2>
+          <p id="current-date"></p>
+        </section>
+      
+        <section class="next-prayer-card">
+          <p>Next Prayer: <span id="next-prayer-name">-</span></p>
+          <h1 id="countdown">00:00:00</h1>
+        </section>
+      
+        <ul class="prayer-times-list">
+          <li class="prayer-row" data-prayer="Fajr">
+            <span>Fajr</span>
+            <span class="time" id="fajr-time">--:--</span>
+          </li>
+          <li class="prayer-row" data-prayer="Sunrise">
+            <span>Sunrise</span>
+            <span class="time" id="sunrise-time">--:--</span>
+          </li>
+          <li class="prayer-row" data-prayer="Dhuhr">
+            <span>Dhuhr</span>
+            <span class="time" id="dhuhr-time">--:--</span>
+          </li>
+          <li class="prayer-row" data-prayer="Asr">
+            <span>Asr</span>
+            <span class="time" id="asr-time">--:--</span>
+          </li>
+          <li class="prayer-row" data-prayer="Maghrib">
+            <span>Maghrib</span>
+            <span class="time" id="maghrib-time">--:--</span>
+          </li>
+          <li class="prayer-row" data-prayer="Isha">
+            <span>Isha</span>
+            <span class="time" id="isha-time">--:--</span>
+          </li>
+        </ul>
+      </main>
+</body>
+</html>
